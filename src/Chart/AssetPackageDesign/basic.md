@@ -3,7 +3,6 @@ lang: zh-CN
 title: 资源包制作入门
 icon: list
 ---
-[//]: # (This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.)
 
 # 资源包制作入门
 
@@ -79,9 +78,9 @@ holdCompact: false; // Hold 音符的中间部分是否与头尾分离
 ```yml
 name: Default
 author: "Mivik & MisaLiu"
-hitFx: [5, 6]
-holdAtlas: [50, 50]
-holdAtlasMH: [50, 110]
+hitFx: [ 5, 6 ]
+holdAtlas: [ 50, 50 ]
+holdAtlasMH: [ 50, 110 ]
 ```
 
 :::

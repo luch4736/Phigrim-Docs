@@ -3,7 +3,6 @@ lang: zh-CN
 title: 资源包制作进阶
 icon: list
 ---
-[//]: # (This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.)
 
 # 资源包制作进阶
 
@@ -81,9 +80,9 @@ hitFxFrameCounts: 30
 
 您可以使用拓展资源文件进行更多设定，可添加文件如下
 
-| notes 文件夹的拓展文件 | 描述             | sounds 文件夹的拓展文件 | 描述                   |
-|:--------------------|:----------------|:---------------------|:-----------------------|
-| TapHL.png           | 高亮的 `Tap` 音符   | TapHL.ogg            | 高亮的 `Tap` 音符音效      |
-| DragHL.png          | 高亮的 `Drag` 音符  | DragHL.ogg           | 高亮的 `Drag` 音符音效     |
-| FlickHL.png         | 高亮的 `Flick` 音符 | FlickHL.ogg          | 高亮的 `Flick` 音符音效    |
-| HoldHL.png          | 高亮的 `Hold` 音符  | HoldHL.ogg           | 高亮的 `Hold` 音符音效     |
+| notes 文件夹的拓展文件 | 描述             | sounds 文件夹的拓展文件 | 描述               |
+|:---------------|:---------------|:----------------|:-----------------|
+| TapHL.png      | 高亮的 `Tap` 音符   | TapHL.ogg       | 高亮的 `Tap` 音符音效   |
+| DragHL.png     | 高亮的 `Drag` 音符  | DragHL.ogg      | 高亮的 `Drag` 音符音效  |
+| FlickHL.png    | 高亮的 `Flick` 音符 | FlickHL.ogg     | 高亮的 `Flick` 音符音效 |
+| HoldHL.png     | 高亮的 `Hold` 音符  | HoldHL.ogg      | 高亮的 `Hold` 音符音效  |

@@ -1,7 +1,14 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ */
+
 import {hopeTheme} from 'vuepress-theme-hope';
 
 export default hopeTheme({
-    navbar:[
+    navbar: [
         {
             text: '设计规范',
             icon: 'lightbulb',
@@ -10,12 +17,12 @@ export default hopeTheme({
         {
             text: '谱面拓展',
             icon: 'list',
-            children: ['/Chart/AssetPackageDesign/index.md',],
+            children: ['/Chart/AssetPackageDesign/basic.md',],
         },
         {
             text: '游戏界面',
             icon: 'compass',
-            children: ['/GameUI/index.md','/GameUI/todo.md'],
+            children: ['/GameUI/index.md', '/GameUI/todo.md'],
         },
         {
             text: '游戏机制',
