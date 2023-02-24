@@ -31,7 +31,7 @@ features:
   icon: play
   details: 高度个性化编辑选项
 
-footer: Mozilla Licensed | Copyright © 2023 luch4736
+footer: Phigrim-Docs is licensed under the MPL 2.0 </br> 2023 luch4736
 ---
 
 # [首页](../index.md)
@@ -41,19 +41,3 @@ footer: Mozilla Licensed | Copyright © 2023 luch4736
 [//]: # (TODO 完善index内容和索引)
 
 ## 快速开始
-
-- [曲绘](../UI/Illustration.md)
-- [立绘](../UI/Tachie.md)
-- [资源包设计](../UI/NoteDesign.md)
-
-## [UI 开发规范](../UI_dev/index.md)
-
-- [曲绘](../UI_dev/Illustration.md)
-- [立绘](../UI_dev/Tachie.md)
-- [Note 设计](../UI_dev/NoteDesign.md)
-
-## [Chart 开发规范](../Chart_dev/index.md)
-
-- [故事版](../Chart_dev/StoryBorad.md)
-- [BGA](../Chart_dev/BGA.md)
-- [后处理](../Chart_dev/post.md)
