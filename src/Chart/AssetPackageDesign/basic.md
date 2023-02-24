@@ -56,6 +56,7 @@ Phigrim的资源包为 ZIP 格式，后缀为 .pap 的压缩文件，如下：
 
 Phigrim 资源包的配置文件为 config.txt，其格式类似于 JavaScript。由半角英文字符进行分割，编码为 UTF-8。
 prpr 资源包的配置文件为 info.yml，格式为标准 yml。
+Phigrim资源包的配置文件是叫做`config.ts`且编码为`UTF-8`的 类TypeScript 文件
 
 示例如下：
 

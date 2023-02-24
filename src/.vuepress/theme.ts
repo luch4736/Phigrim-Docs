@@ -86,6 +86,7 @@ export default hopeTheme({
         mdEnhance: {
             tasklist: true,
             codetabs: true,
+            attrs: true,
         },
     },
 });
