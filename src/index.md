@@ -5,6 +5,7 @@ title: 首页
 heroText: "Phigrim Docs"
 tagline: "社区驱动的开发、设计文档📰"
 actions:
+
 - text: 使用教程🧭
   link: /zh/cookbook/tutorial/
   type: primary
@@ -16,6 +17,7 @@ actions:
   link: /About/index.md
 
 features:
+
 - title: 开放
   icon: code
   details: 提供开放的配置文件编辑
@@ -31,7 +33,6 @@ features:
 
 footer: Mozilla Licensed | Copyright © 2023 luch4736
 ---
-[//]: # (This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.)
 
 # [首页](../index.md)
 
