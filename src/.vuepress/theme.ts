@@ -100,6 +100,7 @@ export default hopeTheme({
             tasklist: true,
             codetabs: true,
             attrs: true,
+            mermaid: true,
         },
         comment: {
             provider: "Giscus",
