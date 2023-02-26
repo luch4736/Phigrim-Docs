@@ -84,28 +84,26 @@ export default hopeTheme({
             },
         ],
 
+    iconAssets: "https://kit.fontawesome.com/3ec1664bb0.js",
+    iconPrefix: "fas fa-",
     navbarIcon: true,
+    pure: true,
+
+    // hotReload: true,
     repo: 'luch4736/Phigrim-Docs-UI',
     docsRepo: 'https://github.com/luch4736/Phigrim-Docs-UI',
     docsBranch: 'main',
     docsDir: 'src',
-    pure: true,
-
-    hotReload: true,
-
-    // iconAssets: 'fontawesome',
-    iconAssets: "https://kit.fontawesome.com/3ec1664bb0.js",
-    iconPrefix: "fas fa-",
 
     plugins: {
         mdEnhance: {
             tasklist: true,
             codetabs: true,
             attrs: true,
-            },
-            comment: {
-                provider: "Giscus",
-                repo: "luch4736/Phigrim-Docs-UI",
+        },
+        comment: {
+            provider: "Giscus",
+            repo: "luch4736/Phigrim-Docs-UI",
                 repoId: "R_kgDOJAL8DQ",
                 category: "General",
                 categoryId: "DIC_kwDOJAL8Dc4CUeHy",
