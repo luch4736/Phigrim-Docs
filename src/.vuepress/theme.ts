@@ -97,11 +97,6 @@ export default hopeTheme({
                 codetabs: true,
                 attrs: true,
             },
-            comment: {
-                provider: "Waline",
-                serverURL: "https://phigrim-docs-ui.vercel.app/",
-            },
-
         },
     }
 );
