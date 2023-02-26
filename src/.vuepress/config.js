@@ -7,6 +7,7 @@
 
 import {defineUserConfig} from "vuepress";
 import {searchProPlugin} from "vuepress-plugin-search-pro";
+import {gitPlugin} from '@vuepress/plugin-git'
 import theme from "./theme.ts";
 
 export default defineUserConfig({
@@ -40,9 +41,13 @@ export default defineUserConfig({
                         formatter: "标签：$content",
                     },
                 ],
-            }
+            },
+            gitPlugin({
+                createdTime: true,
+                updatedTime: true,
+                contributors: true,
+            }),
         ),
-
     ],
 })
 

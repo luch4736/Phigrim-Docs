@@ -84,22 +84,24 @@ export default hopeTheme({
             },
         ],
 
-        navbarIcon: true,
-        repo: 'luch4736/Phigrim-Docs-UI',
-        docsRepo: 'https://github.com/luch4736/Phigrim-Docs-UI',
-        docsBranch: 'main',
-        docsDir: 'src',
-        pure: true,
+    navbarIcon: true,
+    repo: 'luch4736/Phigrim-Docs-UI',
+    docsRepo: 'https://github.com/luch4736/Phigrim-Docs-UI',
+    docsBranch: 'main',
+    docsDir: 'src',
+    pure: true,
 
-        // iconAssets: 'fontawesome',
-        iconAssets: "https://kit.fontawesome.com/3ec1664bb0.js",
-        iconPrefix: "fas fa-",
+    hotReload: true,
 
-        plugins: {
-            mdEnhance: {
-                tasklist: true,
-                codetabs: true,
-                attrs: true,
+    // iconAssets: 'fontawesome',
+    iconAssets: "https://kit.fontawesome.com/3ec1664bb0.js",
+    iconPrefix: "fas fa-",
+
+    plugins: {
+        mdEnhance: {
+            tasklist: true,
+            codetabs: true,
+            attrs: true,
             },
             comment: {
                 provider: "Giscus",
