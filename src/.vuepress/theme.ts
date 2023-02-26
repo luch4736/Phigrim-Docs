@@ -21,7 +21,7 @@ export default hopeTheme({
             },
             {
                 text: '游戏界面',
-                icon: 'compass',
+                icon: 'wand-magic-sparkles',
                 children: ['/GameUI/index.md', '/GameUI/todo.md'],
             },
             {
@@ -31,7 +31,7 @@ export default hopeTheme({
             },
             {
                 text: '关于',
-                icon: 'compass',
+                icon: 'circle-user',
                 children: ['/About/index.md', '/About/publicNotice.md'],
             },
         ],
@@ -44,7 +44,7 @@ export default hopeTheme({
                 text: '资源包',
                 icon: 'lightbulb',
                 prefix: '/Chart/AssetPackageDesign/',
-                collapsible: true,
+                collapsible: false,
                 children: [
                     'basic.md',
                     'further.md'
@@ -55,7 +55,7 @@ export default hopeTheme({
                 text: '谱面特性',
                 icon: 'lightbulb',
                 prefix: '/Chart/ChartPackageDesign/',
-                collapsible: true,
+                collapsible: false,
                 children: [
                     'Illustration.md',
                     'basic.md',
@@ -64,9 +64,9 @@ export default hopeTheme({
             },
             {
                 text: '游戏界面',
-                icon: 'lightbulb',
+                icon: 'wand-magic-sparkles',
                 prefix: '/GameUI/',
-                collapsible: true,
+                collapsible: false,
                 children: [
                     'index.md',
                     'todo.md',
@@ -74,7 +74,7 @@ export default hopeTheme({
             },
             {
                 text: '关于',
-                icon: 'lightbulb',
+                icon: 'circle-user',
                 prefix: '/About',
                 collapsible: false,
                 children: [
@@ -89,8 +89,11 @@ export default hopeTheme({
         docsRepo: 'https://github.com/luch4736/Phigrim-Docs-UI',
         docsBranch: 'main',
         docsDir: 'src',
-        iconAssets: 'fontawesome',
         pure: true,
+
+        // iconAssets: 'fontawesome',
+        iconAssets: "https://kit.fontawesome.com/3ec1664bb0.js",
+        iconPrefix: "fas fa-",
 
         plugins: {
             mdEnhance: {

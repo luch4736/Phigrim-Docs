@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 title: 游戏用户界面
-icon: list
+icon: vector-square
 ---
 
 # 游戏用户界面、交互设计文档
