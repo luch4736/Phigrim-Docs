@@ -31,7 +31,6 @@ features:
   icon: play
   details: 高度个性化编辑选项
 
-footer: Phigrim-Docs is licensed under the MPL 2.0 </br> 2023 luch4736
 ---
 
 # [首页](../index.md)

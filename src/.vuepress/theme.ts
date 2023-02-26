@@ -36,7 +36,8 @@ export default hopeTheme({
             },
         ],
 
-
+        displayFooter: true,
+        footer: "Phigrim-Docs-UI is licensed under the MPL 2.0</br>2023 luch4736",
         logo: '/img/Logo/Phigrim_Docs.png',
         sidebar: [
             {
@@ -97,6 +98,7 @@ export default hopeTheme({
                 codetabs: true,
                 attrs: true,
             },
+            photoSwipe: true,
         },
     }
 );
