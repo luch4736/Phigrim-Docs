@@ -6,6 +6,7 @@
  */
 
 import {defineUserConfig} from "vuepress";
+import {searchProPlugin} from "vuepress-plugin-search-pro";
 import theme from "./theme.ts";
 
 export default defineUserConfig({
@@ -25,5 +26,23 @@ export default defineUserConfig({
     mdEnhance: true,
 
     theme,
+
+    plugins: [
+        searchProPlugin({
+                indexContent: true,
+                customFields: [
+                    {
+                        getter: (page) => page.frontmatter.category,
+                        formatter: "分类：$content",
+                    },
+                    {
+                        getter: (page) => page.frontmatter.tag,
+                        formatter: "标签：$content",
+                    },
+                ],
+            }
+        ),
+
+    ],
 })
 

@@ -40,7 +40,7 @@ export default hopeTheme({
         logo: '/img/Logo/Phigrim_Docs.png',
         sidebar: [
             {
-                text: '资源包设计与应用',
+                text: '资源包',
                 icon: 'lightbulb',
                 prefix: '/Chart/AssetPackageDesign/',
                 collapsible: true,
@@ -97,6 +97,11 @@ export default hopeTheme({
                 codetabs: true,
                 attrs: true,
             },
+            comment: {
+                provider: "Waline",
+                serverURL: "https://phigrim-docs-ui.vercel.app/",
+            },
+
         },
     }
 );
