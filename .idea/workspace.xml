@@ -7,7 +7,6 @@
     <list default="true" id="2a7a56c0-76b9-48c8-a8ff-1b977e54312a" name="变更" comment="优化结构">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <workItem from="1677250052223" duration="3388000" />
       <workItem from="1677259063577" duration="527000" />
       <workItem from="1677296492216" duration="2488000" />
-      <workItem from="1677389323856" duration="2755000" />
+      <workItem from="1677389323856" duration="3244000" />
     </task>
     <task id="LOCAL-00001" summary="格式化">
       <created>1676905683715</created>

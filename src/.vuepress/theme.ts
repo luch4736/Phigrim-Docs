@@ -98,6 +98,13 @@ export default hopeTheme({
                 codetabs: true,
                 attrs: true,
             },
+            comment: {
+                provider: "Giscus",
+                repo: "luch4736/Phigrim-Docs-UI",
+                repoId: "R_kgDOJAL8DQ",
+                category: "General",
+                categoryId: "DIC_kwDOJAL8Dc4CUeHy",
+            },
             photoSwipe: true,
         },
     }
