@@ -11,7 +11,7 @@ import {gitPlugin} from '@vuepress/plugin-git'
 import theme from "./theme.ts";
 
 export default defineUserConfig({
-    base: "./",
+    base: "/./",
     locales:
         {
             "/":
