@@ -49,7 +49,6 @@ export default hopeTheme({
                     'basic.md',
                     'further.md'
                 ],
-                // activeMatch: '^/Chart/',
             },
             {
                 text: '谱面特性',
@@ -89,7 +88,7 @@ export default hopeTheme({
     navbarIcon: true,
     pure: true,
 
-    // hotReload: true,
+    hotReload: true,
     repo: 'luch4736/Phigrim-Docs-UI',
     docsRepo: 'https://github.com/luch4736/Phigrim-Docs-UI',
     docsBranch: 'main',
@@ -101,6 +100,11 @@ export default hopeTheme({
             codetabs: true,
             attrs: true,
             mermaid: true,
+
+            figure: true,
+            imgLazyload: true,
+            imgMark: true,
+            imgSize: true,
         },
         comment: {
             provider: "Giscus",

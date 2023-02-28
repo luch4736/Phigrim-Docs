@@ -12,7 +12,6 @@ import theme from "./theme.ts";
 
 export default defineUserConfig({
     base: "./",
-    dest: "${sourceDir}/build",
     locales:
         {
             "/":
