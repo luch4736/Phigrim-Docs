@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7a56c0-76b9-48c8-a8ff-1b977e54312a" name="变更" comment="Version 0.2.0 change 0&#10;Update theme config">
+    <list default="true" id="2a7a56c0-76b9-48c8-a8ff-1b977e54312a" name="变更" comment="Version 0.2.0 &#10;完善README.MD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/22652/Documents/GitHub/Phigrim-Docs-UI/src/en-US&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\22652\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\223.8617.44\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/22652/Documents/GitHub/Phigrim-Docs-UI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "copyright",
+    "ts.external.directory.path": "C:\\Users\\22652\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\223.8617.44\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\22652\Documents\GitHub\Phigrim-Docs-UI\src\en-US" />
@@ -60,7 +58,7 @@
       <recent name="C:\Users\22652\Documents\GitHub\Phigrim-Docs-UI\src\.vuepress" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:dev">
+  <component name="RunManager" selected="npm.docs:update-package">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -81,8 +79,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="docs:update-package" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:update-package" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.docs:update-package" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
       </list>
@@ -109,6 +118,7 @@
       <workItem from="1677296492216" duration="2488000" />
       <workItem from="1677389323856" duration="5381000" />
       <workItem from="1677407876598" duration="758000" />
+      <workItem from="1677592055278" duration="876000" />
     </task>
     <task id="LOCAL-00001" summary="格式化">
       <created>1676905683715</created>
@@ -138,7 +148,35 @@
       <option name="project" value="LOCAL" />
       <updated>1677410527349</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 0.2.0 &#10;创建README.MD">
+      <created>1677592151615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677592151615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Version 0.2.0 &#10;创建README.MD">
+      <created>1677592199057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677592199057</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Version 0.2.0 &#10;完善README.MD">
+      <created>1677592614109</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677592614109</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Version 0.2.0 &#10;完善README.MD">
+      <created>1677592865648</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677592865648</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +198,9 @@
     <MESSAGE value="优化结构" />
     <MESSAGE value="Version 0.2.0 test1" />
     <MESSAGE value="Version 0.2.0 change 0&#10;Update theme config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.2.0 change 0&#10;Update theme config" />
+    <MESSAGE value="Version 0.2.0 &#10;创建README.MD" />
+    <MESSAGE value="Version 0.2.0 &#10;完善README.MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.2.0 &#10;完善README.MD" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
