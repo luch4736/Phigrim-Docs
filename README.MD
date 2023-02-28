@@ -14,7 +14,11 @@
 
 Phigrim Docs在`Github`使用`MPL2.0`协议开源。您可以在[这里](https://github.com/luch4736/Phigrim-Docs-UI/pulls)请求合并您的编辑。
 
-------
+### 评论
+
+在Phigrim Docs中，除了主页的所有文档都开启了评论系统。
+
+你可以对当前文档发表评论，或在Github中的本项目链接中找到Discussions修改你的评论。
 
 ### 拓展的Markdown选项：
 
