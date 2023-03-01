@@ -34,10 +34,18 @@ features:
 
 ## 快速开始 :sparkles:
 
+### Fork本项目到您的账号或组织下
+
+这是一个简单的过程。分叉版本库的步骤如下。
+
+- 登录到GitHub账户。
+- 找到你想分叉的GitHub仓库。
+- 点击版本库页面右上方的Fork按钮。
+
 ### 拉取此项目到本地 :computer:
 
 ```shell
-git clone https://github.com/luch4736/Phigrim-Docs-UI.git
+git clone https://github.com/user/Phigrim-Docs-UI.git
 ```
 
 然后，开始编辑您的内容，并提交`Pull Request`。
@@ -57,3 +65,5 @@ Phigrim Docs在`Github`使用`MPL2.0`协议开源。您可以在[这里](https:/
 在Phigrim Docs中，除了主页的所有文档都开启了评论系统。
 
 你可以对当前文档发表评论，或在Github中的本项目链接中找到Discussions修改你的评论。
+
+~~目前，main分支的管理并没有完全统一，所以你可能看到混乱的推送信息~~
