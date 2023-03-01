@@ -2,7 +2,7 @@
 
 ## 简介
 
-这是一个基于Vuepress的文档项目，由`luch4736`创建，旨在通过社区创造规范。
+这是一个基于VuePress的文档项目，由`luch4736`创建，旨在通过社区创造规范。
 
 您可以修改`/src`目录下的`.md`格式的文档，或者在issue中提出您想要加入的功能。
 
@@ -22,9 +22,73 @@ Phigrim Docs在`Github`使用`MPL2.0`协议开源。您可以在[这里](https:/
 
 ### 拓展的Markdown选项：
 
+#### YAML Front Matter
+
+你可以在页面的 frontmatter 配置以下选项设置页面相关信息。
+
+##### title
+
+- 类型: `string`
+- 必填: 否
+
+当前页面内容标题，默认为 Markdown 文件中的第一个 h1 标签内容。
+
+##### shortTitle
+
+- 类型: `string`
+- 必填: 否
+
+当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
+
+##### description
+
+- 类型: `string`
+- 必填: 否
+
+当前页面内容描述。
+
+##### icon
+
+- 类型: `string`
+- 必填: 否
+- 详情:
+    - [图标支持]()
+
+当前页面图标。
+
+##### date
+
+- 类型: `DateString`
+- 必填: 否
+- 格式: `YYYY-MM-DD` 或 `YYYY-MM-DD hh:mm:ss`
+
+写作时间。
+
+##### category
+
+- 类型: `string | string[]`
+- 必填: 否
+
+分类。
+
+##### tag
+
+- 类型: `string | string[]`
+- 必填: 否
+
+标签。
+
+##### sticky
+
+- 类型: `boolean | number`
+- 默认值: `false`
+
+是否在列表中置顶。当填入数字时，数字越大，排名越靠前。
+
 #### Mermaid
 
-[Mermaid](https://mermaid.js.org/)是一个强大的文档拓展，支持多种表格绘制，Phigrim Docs开启了对此控件的支持，您可以用如下方式加入Mermaid图表：
+[Mermaid](https://mermaid.js.org/)（此超链接指向Mermaid文档）是一个强大的表格拓展，支持多种表格绘制，Phigrim
+Docs开启了对此控件的支持，您可以用如下方式加入Mermaid图表：
 
 ````markdown
 ```mermaid
@@ -52,7 +116,7 @@ flowchart TB
 
 ```mermaid
 ---
-title: Flowchart
+title: 流程图示意
 ---
 flowchart TB
     c1-->a2
