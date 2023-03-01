@@ -18,16 +18,12 @@ actions:
 
 features:
 - title: 开放
-  icon: code
   details: 提供开放的配置文件编辑
 - title: 共享
-  icon: link
   details: 将成果分享给所有节奏游戏社区
 - title: 互助
-  icon: code-compare
   details: 开源并互助编写内容
 - title: 创造
-  icon: play
   details: 高度个性化编辑选项
 
 ---
