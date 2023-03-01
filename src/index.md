@@ -45,7 +45,7 @@ features:
 ### 拉取此项目到本地 :computer:
 
 ```shell
-git clone https://github.com/user/Phigrim-Docs-UI.git
+git clone https://github.com/user/Phigrim-Docs.git
 ```
 
 然后，开始编辑您的内容，并提交`Pull Request`。
