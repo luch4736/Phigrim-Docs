@@ -20,11 +20,11 @@ Phigrim Docs在`Github`使用`MPL2.0`协议开源。您可以在[这里](https:/
 
 你可以对当前文档发表评论，或在Github中的本项目链接中找到Discussions修改你的评论。
 
-### 拓展的Markdown选项：
+### 拓展选项：
 
 #### YAML Front Matter
 
-你可以在页面的 frontmatter 配置以下选项设置页面相关信息。
+你可以在Markdown的 frontmatter 配置以下选项设置页面相关信息。
 
 ##### title
 
@@ -52,7 +52,7 @@ Phigrim Docs在`Github`使用`MPL2.0`协议开源。您可以在[这里](https:/
 - 类型: `string`
 - 必填: 否
 - 详情:
-    - [图标支持]()
+  - [图标支持](#图标支持)
 
 当前页面图标。
 
@@ -84,6 +84,24 @@ Phigrim Docs在`Github`使用`MPL2.0`协议开源。您可以在[这里](https:/
 - 默认值: `false`
 
 是否在列表中置顶。当填入数字时，数字越大，排名越靠前。
+
+#### 图标支持
+
+Phigrim Docs支持了 [FontAwesome](https://fontawesome.com/) 图标库（免费图标），以Bolt图标为例，
+
+您在FontAwesome网站找到的使用方式
+
+```html
+<i class="fa-solid fa-bolt"></i>
+```
+
+其中，`fa-solie`是图标样式，`fa-`前缀代表免费图标，您只需要提取`bolt`字段，所以您在使用图标时应该如下：
+
+```yaml
+lang: zh-CN
+title: 示例
+icon: bolt
+```
 
 #### Mermaid
 
