@@ -37,7 +37,7 @@ export default hopeTheme({
         ],
 
         displayFooter: true,
-        footer: "Phigrim-Docs-UI is licensed under the MPL 2.0</br>2023 luch4736",
+        footer: "Phigrim Docs is licensed under the MPL 2.0</br>2023 luch4736",
         logo: '/img/Logo/Phigrim_Docs.png',
         sidebar: [
             {
@@ -89,8 +89,8 @@ export default hopeTheme({
     pure: true,
 
     hotReload: true,
-    repo: 'luch4736/Phigrim-Docs-UI',
-    docsRepo: 'https://github.com/luch4736/Phigrim-Docs-UI',
+    repo: 'luch4736/Phigrim-Docs',
+    docsRepo: 'https://github.com/luch4736/Phigrim-Docs',
     docsBranch: 'main',
     docsDir: 'src',
 
@@ -108,7 +108,7 @@ export default hopeTheme({
         },
         comment: {
             provider: "Giscus",
-            repo: "luch4736/Phigrim-Docs-UI",
+            repo: "luch4736/Phigrim-Docs",
                 repoId: "R_kgDOJAL8DQ",
                 category: "General",
                 categoryId: "DIC_kwDOJAL8Dc4CUeHy",
