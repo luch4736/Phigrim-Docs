@@ -58,7 +58,7 @@ git clone https://github.com/user/Phigrim-Docs.git
 
 ### 提交您的编辑 :raising_hand:
 
-Phigrim Docs在`Github`使用`MPL2.0`协议开源。您可以在[这里](https://github.com/luch4736/Phigrim-Docs-UI/pulls)请求合并您的编辑。
+Phigrim Docs在`Github`使用`MPL2.0`协议开源。您可以在[这里](https://github.com/luch4736/Phigrim-Docs/pulls)请求合并您的编辑。
 
 ### 评论 :hammer:
 
