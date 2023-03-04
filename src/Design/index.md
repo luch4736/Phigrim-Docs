@@ -15,6 +15,6 @@ icon: vector-square
 
 目前，Phigrim的UI由MasterGo进行管理和绘制，您可以查看本项目的 [副本](https://mastergo.com/goto/oSzCvsGD?file=86471810301222)
 ，这里会不定期更新经过整理的页面。
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://mastergo.com/file/86471796669729?source=iframe_share" allowfullscreen></iframe>
-
+::: center
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="700" height="400" src="https://mastergo.com/file/86471796669729?source=iframe_share" allowfullscreen></iframe>
+:::

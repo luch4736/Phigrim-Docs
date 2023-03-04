@@ -103,6 +103,7 @@ export default hopeTheme({
                 imgLazyload: true,
                 imgMark: true,
                 imgSize: true,
+                align: true,
             },
             comment: {
                 provider: "Giscus",
