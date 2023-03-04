@@ -39,8 +39,8 @@ features:
 - 打开本GitHub仓库。
 - 点击版本库页面右上方的Fork按钮。
 
-::: info
-´https://gitee.com/luch4736/Phigrim-Docs´是本仓库的中国大陆镜像，请勿在gitee中Fork本项目。
+::: warning
+https://gitee.com/luch4736/Phigrim-Docs´是本仓库的中国大陆镜像，请勿在gitee中Fork本项目。
 :::
 
 ### 拉取此项目到本地 :computer:
