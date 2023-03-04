@@ -1,5 +1,6 @@
 ---
 lang: zh-CN
-title: 有关本文档
+title: 文档相关信息
+shortTitle: 关于文档
 icon: list
 ---

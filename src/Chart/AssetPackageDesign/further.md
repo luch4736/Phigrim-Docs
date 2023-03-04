@@ -1,6 +1,7 @@
 ---
 lang: zh-CN
 title: 资源包制作进阶
+shortTitle: 进阶
 icon: list
 ---
 

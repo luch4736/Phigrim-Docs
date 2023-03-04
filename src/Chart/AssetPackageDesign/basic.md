@@ -1,6 +1,7 @@
 ---
 lang: zh-CN
 title: 资源包制作入门
+shortTitle: 入门
 icon: list
 ---
 
