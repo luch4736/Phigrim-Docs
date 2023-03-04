@@ -17,6 +17,7 @@ actions:
   link: /About/index.md
 
 features:
+
 - title: 开放
   details: 提供开放的配置文件编辑
 - title: 共享

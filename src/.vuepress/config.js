@@ -7,7 +7,6 @@
 
 import {defineUserConfig} from "vuepress";
 import {searchProPlugin} from "vuepress-plugin-search-pro";
-import {gitPlugin} from '@vuepress/plugin-git'
 import theme from "./theme.ts";
 
 export default defineUserConfig({
@@ -30,24 +29,20 @@ export default defineUserConfig({
 
     plugins: [
         searchProPlugin({
-                indexContent: true,
-                customFields: [
-                    {
-                        getter: (page) => page.frontmatter.category,
-                        formatter: "分类：$content",
-                    },
-                    {
-                        getter: (page) => page.frontmatter.tag,
-                        formatter: "标签：$content",
-                    },
-                ],
-            },
-            gitPlugin({
-                createdTime: true,
-                updatedTime: true,
-                contributors: true,
-            }),
-        ),
+            indexContent: true,
+            customFields: [
+                {
+                    getter: (page) => page.frontmatter.category,
+                    formatter: "分类：$content",
+                },
+                {
+                    getter: (page) => page.frontmatter.tag,
+                    formatter: "标签：$content",
+                },
+            ],
+        })
     ],
 })
+
+
 
