@@ -17,9 +17,9 @@ export default hopeTheme({
         },
         {
             text: '谱面',
-                icon: 'list',
-                children: ['/Chart/AssetPackageDesign/',],
-            },
+            icon: 'file-lines',
+            children: ['/Chart/AssetPackageDesign/',],
+        },
             {
                 text: '机制',
                 icon: 'compass',
@@ -39,7 +39,7 @@ export default hopeTheme({
             {
                 text: "设计",
                 prefix: "/Design",
-                collapsible: true,
+                collapsible: false,
                 icon: "wand-magic-sparkles",
                 children: [
                     "index.md",
@@ -62,7 +62,28 @@ export default hopeTheme({
             {
                 text: "谱面",
                 prefix: "/Chart",
-                collapsible: true,
+                collapsible: false,
+                icon: "file-lines",
+                children: [
+                    {
+                        text: "资源包",
+                        icon: "file-zipper",
+                        prefix: "AssetPackageDesign/",
+                        children: [
+                            "basic.md", "further.md",
+                        ],
+                    },
+                    {
+                        text: "谱面包",
+                        prefix: "ChartPackageDesign/",
+                        children: [],
+                    },
+                ],
+            },
+            {
+                text: "谱面",
+                prefix: "/Chart",
+                collapsible: false,
                 icon: "file-lines",
                 children: [
                     {
@@ -112,6 +133,7 @@ export default hopeTheme({
                 repoId: "R_kgDOJAL8DQ",
                 category: "General",
                 categoryId: "DIC_kwDOJAL8Dc4CUeHy",
+                darkTheme: "dark_protanopia",
             },
             photoSwipe: true,
         },
