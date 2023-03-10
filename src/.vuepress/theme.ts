@@ -5,17 +5,18 @@
  *
  */
 
-import {hopeTheme} from 'vuepress-theme-hope';
+// @ts-ignore
+import {hopeTheme} from 'vuepress-theme-hope/perf';
 
 export default hopeTheme({
-        navbar: [
-            {
-                text: '设计',
-                icon: 'wand-magic-sparkles',
-                children: ['/Design/index.md', '/Design/BrandResources.md', '/Design/todo.md'],
-            },
-            {
-                text: '谱面',
+    navbar: [
+        {
+            text: '设计',
+            icon: 'wand-magic-sparkles',
+            children: ['/Design/index.md', '/Design/BrandResources.md', '/Design/todo.md'],
+        },
+        {
+            text: '谱面',
                 icon: 'list',
                 children: ['/Chart/AssetPackageDesign/',],
             },
@@ -81,16 +82,16 @@ export default hopeTheme({
             },
         ],
 
-        iconAssets: "https://kit.fontawesome.com/3ec1664bb0.js",
-        iconPrefix: "fa-solid fa-",
-        navbarIcon: true,
-        pure: true,
+    iconAssets: "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.css",
+    iconPrefix: "fa-solid fa-",
+    navbarIcon: true,
+    // pure: true,
 
-        hotReload: true,
-        repo: 'luch4736/Phigrim-Docs',
-        docsRepo: 'https://github.com/luch4736/Phigrim-Docs',
-        docsBranch: 'main',
-        docsDir: 'src',
+    hotReload: true,
+    repo: 'luch4736/Phigrim-Docs',
+    docsRepo: 'https://github.com/luch4736/Phigrim-Docs',
+    docsBranch: 'main',
+    docsDir: 'src',
 
         plugins: {
             mdEnhance: {
