@@ -3,7 +3,7 @@ home: true
 lang: zh-CN
 title: 首页
 heroText: "Phigrim Docs"
-tagline: "基于VuePress的社区驱动规范文档"
+tagline: "一个基于VuePress的社区驱动规范文档"
 actions:
 
 - text: 使用教程🧭
